@@ -52,6 +52,15 @@ APT_REQUIREMENTS = {
     "screenfetch": "screenfetch",
     "flatpak": "flatpak",
     "plasma-discover-backend-flatpak": "plasma-discover-backend-flatpak",
+        "vlc": "vlc",              # Media player command
+    "cmake": "cmake",          # Required to build llama.cpp
+    "ccache": "ccache",        # Speeds up compilation rebuilding
+    "xdotool": "xdotool",      # Simulates keyboard/mouse actions
+    "neofetch": "neofetch",    # System information display
+    "nginx": "nginx",          # High-performance reverse proxy server
+    "samba": "smbd",           # Network file sharing daemon check
+    "ffmpeg": "ffmpeg",        # Audio/video processing framework
+    "python3-venv": "python3", # Python environment module (checked via python3)
 }
 
 # Dictionary of required Flatpak apps (Friendly Name: Flatpak Application ID).
